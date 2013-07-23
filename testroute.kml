@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Start To Dest</name>
+	<open>1</open>
+	<Style id="roadStyle">
+		<LineStyle>
+			<color>7f00ca00</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="stylemap_start">
+		<Pair>
+			<key>normal</key>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/kml/paddle/go.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<Style>
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/kml/paddle/go.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_dest">
+		<Pair>
+			<key>normal</key>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/kml/paddle/stop.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<Style>
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/kml/paddle/stop.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Start</name>
+		<styleUrl>#stylemap_start</styleUrl>
+		<Point>
+			<coordinates>11.5767361,48.13682399999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dest</name>
+		<styleUrl>#stylemap_dest</styleUrl>
+		<Point>
+			<coordinates>11.6013497,48.1436362,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Route</name>
+		<styleUrl>#roadStyle</styleUrl>
+		<MultiGeometry>
+			<LineString>
+				<coordinates>
+					11.5767361,48.13682399999999,0 11.5766603,48.1368045,0 11.5767092,48.1367201,0 11.577031,48.1365806,0 11.5771115,48.1365591,0 11.5779591,48.1362802,0 11.578238,48.1362104,0 11.5784687,48.1361675,0 11.5791714,48.1360495,0 11.5794879,48.1359798,0 11.5798205,48.13589930000001,0 11.5799278,48.13587249999999,0 11.5805179,48.1356686,0 11.5813011,48.1354111,0 11.581462,48.135041,0 11.5816712,48.13484250000001,0 11.5819824,48.1347781,0 11.5823579,48.134408,0 11.5827602,48.1338876,0 11.5828085,48.13380179999999,0 11.5828997,48.1336623,0 11.5833396,48.1330615,0 11.5834308,48.13300250000001,0 11.5843213,48.1325519,0 11.5848202,48.1322891,0 11.5848792,48.13226759999999,0 11.5850776,48.1321979,0 11.5858179,48.1318921,0 11.5859199,48.1318492,0 11.5863919,48.1317204,0 11.5873522,48.131538,0 11.5875024,48.1315219,0 11.5877223,48.1315112,0 11.5878081,48.1315112,0 11.5886611,48.1315809,0 11.5894979,48.1316721,0 11.5896106,48.131699,0 11.5900183,48.1319779,0 11.5905011,48.1323212,0 11.5905923,48.1324607,0 11.5910321,48.1326485,0 11.5912306,48.1327075,0 11.5913326,48.13273970000001,0 11.59181,48.1329006,0 11.591928,48.1329381,0 11.5922821,48.1330508,0 11.5928721,48.1332386,0 11.5934998,48.13344239999999,0 11.5943098,48.1336892,0 11.5956295,48.1340486,0 11.5959299,48.1341076,0 11.5962678,48.1341827,0 11.5966916,48.13424169999999,0 11.5968901,48.1342793,0 11.5977001,48.135041,0 11.5978718,48.13553990000001,0 11.5978825,48.1356794,0 11.5980113,48.1363875,0 11.5980327,48.13646259999999,0 11.5981078,48.1366503,0 11.5983385,48.1371009,0 11.5984404,48.13731009999999,0 11.5988588,48.1382382,0 11.5992075,48.1389678,0 11.6001087,48.1407112,0 11.6011226,48.1420523,0 11.6012406,48.1422615,0 11.6013318,48.14320029999999,0 11.6013479,48.1436187,0 11.6013497,48.1436362,0 
+				</coordinates>
+			</LineString>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
