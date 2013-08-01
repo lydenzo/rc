@@ -7,7 +7,7 @@
     <description>Network link example 1</description>
     <NetworkLink>
       <name>Random Placemark</name>
-      <visibility>0</visibility>
+      <visibility>1</visibility>
       <open>0</open>
       <description>A simple server-side script that generates a new random
         placemark on each call</description>
@@ -20,7 +20,7 @@
 
     <NetworkLink>
       <name>Random Placemark</name>
-      <visibility>0</visibility>
+      <visibility>1</visibility>
       <open>0</open>
       <description>A simple server-side script that generates a new random
         placemark on each call</description>
