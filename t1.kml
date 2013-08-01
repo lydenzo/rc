@@ -58,26 +58,21 @@
         </Style>
       </Pair>
     </StyleMap>
-    <NetworkLink>
+    <Placemark>
+      <name>Start</name>
+      <styleUrl>#stylemap_start</styleUrl>
+      <NetworkLink>
       <name>Random Placemark</name>
-      <visibility>0</visibility>
+      <visibility>1</visibility>
       <open>0</open>
       <description>A simple server-side script that generates a new random
         placemark on each call</description>
       <refreshVisibility>0</refreshVisibility>
-      <flyToView>0</flyToView>
+      <flyToView>1</flyToView>
       <Link>
         <href>'https://raw.github.com/lydenzo/rc/master/t2.kml</href>
       </Link>
     </NetworkLink>
-    <Placemark>
-      <name>Start</name>
-      <styleUrl>#stylemap_start</styleUrl>
-      <Point>
-        <coordinates>
-          -119.1445417,34.143525,0
-        </coordinates>
-      </Point>
     </Placemark>
     <Placemark>
       <name>Dest</name>
