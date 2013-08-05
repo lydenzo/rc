@@ -4,7 +4,7 @@
     <name>Start To Dest</name>
     <Style id="roadStyle">
       <LineStyle>
-        <color>00FF0000</color>
+        <color>501400FF</color>
         <width>6</width>
       </LineStyle>
     </Style>
