@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Start To Dest</name>
+    <name>BMW006_harman</name>
     <Style id="roadStyle">
       <LineStyle>
-        <color>7f00ca00</color>
+        <color>50780000</color>
         <width>6</width>
       </LineStyle>
     </Style>
