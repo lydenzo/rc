@@ -77,7 +77,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Route</name>
+      <name>Google</name>
       <styleUrl>#roadStyle</styleUrl>
       <MultiGeometry>
         <LineString>
