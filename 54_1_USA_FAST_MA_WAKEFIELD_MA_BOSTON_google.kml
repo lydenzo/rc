@@ -4,7 +4,7 @@
     <name>Start To Dest</name>
     <Style id="roadStyle">
       <LineStyle>
-        <color>ffffff00</color>
+        <color>5000FF14</color>
         <width>6</width>
       </LineStyle>
     </Style>
@@ -77,7 +77,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Route</name>
+      <name>Google</name>
       <styleUrl>#roadStyle</styleUrl>
       <MultiGeometry>
         <LineString>
